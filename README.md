@@ -23,3 +23,4 @@ The CMH Payload Tool is a cross-platform payload generation tool for Android and
 git clone https://github.com/sanusi644/cmh-payload-tool.git
 cd cmh-payload-tool
 msf > load exploits/custom/cmh_obfuscated_payload
+msf > run exploit
