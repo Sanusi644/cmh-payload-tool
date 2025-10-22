@@ -1,4 +1,4 @@
-# CMH Payload Tool
+no# CMH Payload Tool
 
 The CMH Payload Tool is a cross-platform payload generation tool for Android and Windows systems. It uses msfvenom to create obfuscated Meterpreter payloads in the form of APK files for Android or executable (.exe) files for Windows.
 
@@ -22,3 +22,4 @@ The CMH Payload Tool is a cross-platform payload generation tool for Android and
 ```bash
 git clone https://github.com/sanusi644/cmh-payload-tool.git
 cd cmh-payload-tool
+msf > load exploits/custom/cmh_obfuscated_payload
